@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdio>
+// 这玩意可以统计逆序对数量
 
 using namespace std;
 int help[100010];
