@@ -1,3 +1,4 @@
+// 写不了一点
 // 切片线段树
 #include <cstdio>
 #include <iostream>
@@ -41,7 +42,6 @@ void build(int u, int l, int r) {
     int mid = l + r >> 1;
     build(u<<1, l ,mid), build(u<<1|1, mid+1, r);
 }
-
 
 // void build(int u, int l, int r)
 // {
