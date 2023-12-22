@@ -38,6 +38,7 @@ int query(int u, int l, int r) {
     int mid = tr[u].l + tr[u].r >> 1;
     int maxv = INT_MIN;
     // ??? 这里赋个INT_MIN在干嘛? 会被覆盖的.
+    // 试了一下, 可能会出现的情况是l>mid
     if (l <= mid) maxv = query(u<<1, l, r);
     if (r > mid) maxv = max(maxv, query(u<<1|1, l, r));
     return maxv;
