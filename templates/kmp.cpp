@@ -1,3 +1,5 @@
+// 已重写一遍:不能背
+// 又写了一遍:注意下标
 #include <iostream>
 #include <string>
 
