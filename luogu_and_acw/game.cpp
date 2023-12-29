@@ -52,10 +52,11 @@ int main() {
         }
         system("cls");
         for (int i = 0; i < map.size(); i ++) {
-            cout << newmap[i] << endl;
+            // cout << newmap[i] << endl;
+            printf("%s\n", newmap[i].c_str());
         }
         map.assign(newmap.begin(),newmap.end());
-        system("powershell sleep 0.5 > null");
+        // system("powershell sleep 0.5 > null");
     }
     return 0;
 }
