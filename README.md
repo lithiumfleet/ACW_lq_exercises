@@ -9,22 +9,3 @@
 
 ### 当前进度
 + 复习前七讲
-
-<div class="container">
-  <div class="progress bar">80%</div>
-</div>
-
-
-<style>
-.container {
-  width: 70%;
-  background-color: #ddd;
-}
-.progress {
-  text-align: right;
-  padding-right: 100px;
-  line-height: 20px;
-  color: white;
-}
-.bar {width: 80%; background-color: #2196F3;}
-</style>
