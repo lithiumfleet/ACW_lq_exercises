@@ -14,7 +14,7 @@ bool in_bound(int x) {
 void turn(int x, int y) {
     int need[5][2] = {x,y-1,x-1,y,x,y,x+1,y,x,y+1};
     for (int i = 0; i < 5; i ++) {
-        if (in_bound(need[i][0]) && in_bound(need[i][0])) {
+        if (in_bound(need[i][0]) && in_bound(need[i][1])) {
             map[need[i][0]][need[i][1]] ^= 1; // ascii中对'1''0'异或运算成立
         }
     }
